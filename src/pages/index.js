@@ -12,7 +12,7 @@ export default function Home() {
         <div className={styles.container}>
           <div className={styles.box}>
               <img className={styles.logo} src='images/logotipo.png' alt='Logotipo'/>              
-              <h3 className={styles.title}>Seja bem vind@!<br/> Ficamos felizes por você amar e querer compartilhar literatura assim como nós. ❤️</h3>
+              <h3 className={styles.title}>Seja bem vind@!<br/> Ficamos felizes por você amar e querer compartilhar literatura assim como nós.</h3>
               <img className={styles.divisor} src='images/divisor.png' alt='Divisor'/>
               <h4 className={styles.apoio}>Temos produtos literários, <br/>todos pensados e produzidos com muito amor,<br/> buscando trazer uma experiência poética para você.</h4>              
               <div className={styles.produtosBoxWrapper}>

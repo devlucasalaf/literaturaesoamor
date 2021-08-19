@@ -59,34 +59,32 @@
 
 .container .box .compreAquiWrapper:hover .btnBackground {    
     transform: scaleX(1.1) scaleY(1.4);
-    opacity: 1;
-    box-shadow: 0 0 5px rgb(233, 55, 55);
+    opacity: 1;    
 }
 
 .container .box .compreAquiWrapper:hover .compreAqui {    
-    background-color: rgb(233, 55, 55);;
+    
 }
 
 .container .box .compreAquiWrapper .btnBackground {
-    width: 200px;
-    height: 40px;
-    border-radius: 24px;
+    width: 220px;
+    height: 50px;    
     background-color: transparent;
     transition: .2s;
-    border: 1px solid rgb(233, 55, 55);
+    border: 1px solid #333333;
     position: absolute;
     opacity: 0;
     top: 0;
 }
 
 .container .box .compreAquiWrapper .compreAqui {
-    width: 200px;
-    height: 40px;
+    width: 220px;
+    height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    border-radius: 24px;
-    background-color: rgb(233, 55, 55);
+    justify-content: center;    
+    background-color: #333333;
+    color: white;
     font-weight: bold;    
     transition: .2s;
     
@@ -107,14 +105,14 @@
 
 .instaWrapper .sigaNos {
     position: absolute;
-    left: 40px;
+    left: 60px;
     top: 3px;
     color: rgb(46, 44, 44);
     font-weight: bold;    
     font-size: 16px;
     width: 100px;   
-    opacity: 0;
-    transition: .4s;
+    opacity: 1;
+    transition: .4s;    
 }
 
 .instaWrapper .instagramLogo {
@@ -131,15 +129,14 @@
 .produtosBoxWrapper .produtosBox {
     width: 150px;
     height: 40px;
-    background-color: rgb(248, 138, 138);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     border-radius: 16px;    
     margin-right: 10px;
     margin-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5px;
-    border: 1px solid rgb(240, 161, 44);;
+    gap: 5px;    
 }
 
 .produtosBoxWrapper .produtosBox .produtosBoxText {
@@ -235,9 +232,16 @@
     }
     
     .produtosBoxWrapper .produtosBox {            
-        height: 70px;      
-       
-    
+        height: 70px;          
+    }
+
+    .instaWrapper .sigaNos {        
+        left: 40px;
+        top: 3px;
+        color: rgb(46, 44, 44);        
+        font-size: 16px;
+        width: 100px;   
+        opacity: 0;        
     }
 }
 

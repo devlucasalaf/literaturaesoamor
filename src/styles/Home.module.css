@@ -13,7 +13,7 @@
 
 .container .box {
     width: 100vw;    
-    height: 100vh;    
+    height: 100%;    
     background-image: url(/images/bg-papel-amassado.jpg);
     background-position: right;
     background-repeat: no-repeat;
@@ -24,6 +24,7 @@
     align-items: center;
     padding: 20px 20px;   
     position: relative;
+    overflow: scroll;
     
 }
 
@@ -62,10 +63,6 @@
     opacity: 1;    
 }
 
-.container .box .compreAquiWrapper:hover .compreAqui {    
-    
-}
-
 .container .box .compreAquiWrapper .btnBackground {
     width: 220px;
     height: 50px;    
@@ -95,6 +92,7 @@
     bottom: 10px;
     left: 10px;
     cursor: pointer;    
+    display: none;
 }
 
 .instaWrapper:hover .sigaNos {
@@ -201,7 +199,8 @@
             position: absolute;
             bottom: 30px;
             left: 30px;
-            cursor: pointer;    
+            cursor: pointer;   
+           
         }
         
 }
@@ -241,7 +240,12 @@
         color: rgb(46, 44, 44);        
         font-size: 16px;
         width: 100px;   
-        opacity: 0;        
+        opacity: 0;       
+        
+    }
+
+    .instaWrapper {
+        display: block; 
     }
 }
 

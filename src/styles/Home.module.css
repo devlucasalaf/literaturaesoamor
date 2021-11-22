@@ -206,6 +206,9 @@
 }
 
 @media(min-width: 992px) {
+    .container .box {
+        overflow: auto;
+    }
     .container .box .logo {
         width: 300px;    
     }

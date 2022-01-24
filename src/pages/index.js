@@ -29,11 +29,13 @@ export default function Home() {
                 <span className={styles.compreAqui}> COMPRE AQUI</span>
                 <div className={styles.btnBackground}/>
               </a>              
-
-              <a target='_blank' href='https://www.instagram.com/literaturaesoamor/' className={styles.instaWrapper}>
-                <span className={styles.sigaNos}>Siga-nos no Instagram</span> 
-                <img className={styles.instagramLogo} src='images/instagram.png' alt='Instagram logotipo'/>
-              </a>
+              <div className={styles.instaContainer}>
+                <a target='_blank' href='https://www.instagram.com/literaturaesoamor/' className={styles.instaWrapper}>
+                  <span className={styles.sigaNos}>Siga-nos no Instagram</span> 
+                  <img className={styles.instagramLogo} src='images/instagram.png' alt='Instagram logotipo'/>
+                </a>
+              </div>
+             
           </div>
         </div>        
       </main>

@@ -87,10 +87,14 @@
     
 }
 
-.instaWrapper {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+.instaContainer {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.instaWrapper {    
+    position: relative;
     cursor: pointer;    
     display: none;
 }
@@ -196,9 +200,7 @@
         }
 
         .instaWrapper {
-            position: absolute;
-            bottom: 30px;
-            left: 30px;
+            margin-top: 30px;
             cursor: pointer;   
            
         }
